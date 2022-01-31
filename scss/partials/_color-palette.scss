@@ -1,0 +1,39 @@
+/* -------------------------------- 
+
+Color Palette
+
+-------------------------------- */
+
+/* SCSS HSL */
+$main: hsla(40, 5%, 62%, 1);
+$light: hsla(40, 22%, 92%, 1);
+$accent-1: hsla(35, 79%, 61%, 1);
+$accent-2: hsla(52, 46%, 44%, 1);
+$accent-3: hsla(19, 43%, 51%, 1);
+$dark: hsla(19, 43%, 16%, 1);
+$white: #ffffff;
+$green: hsla(122, 62%, 32%, 1);
+$red: hsla(1, 71%, 32%, 1);
+
+
+
+/* SCSS RGB */
+/*$isabelline: rgba(239, 236, 230, 1);
+$olive-green: rgba(164, 150, 61, 1);
+$brown-sugar: rgba(184, 110, 76, 1);
+$indian-yellow: rgba(234, 169, 75, 1);
+$quick-silver: rgba(163, 160, 154, 1);
+$bistre: rgba(58, 34, 23, 1);
+$india-green: rgba(31, 131, 34, 1);
+$ou-crimson-red: rgba(140, 26, 24, 1);*/
+
+$color-1: $main; // Quick Silver
+$color-2: $accent-1; // Indian Yellow
+$color-3: $accent-2; // Olive Green
+$color-4: $accent-3; // Brown Sugar (orange)
+$color-5: $dark; // Bistre 
+
+// additional colors
+
+$success: $green; // green
+$alert: $red; // red

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 331 - Week 4</title>
+  </head>
+  <body>
+    <h1>CSS Zen Garden | Wireframe Mock-ups</h1>
+    <div>
+      <h2>Group members:</h2>
+
+      <ul>
+        <li>Ashley Zufelt</li>
+        <li>Gary Wilkins</li>
+        <li>Chris Blount</li>
+      </ul>
+
+      <h3>Description of theme:</h3>
+
+      <ul>
+        <li>Autumn/Thanksgiving theme</li>
+        <li>Animating elements (like leaves or pumpkins)</li>
+        <li>Mouseover & click effects</li>
+        <li>Borders and framing using images</li>
+      </ul>
+
+      <section>
+        <h2>Initial site mock-ups:</h2>
+
+        <a href="mobileview.html">Mobile View</a>
+
+        <a href="largerview.html">Desktop View</a>
+      </section>
+    </div>
+
+    <style>
+      body {
+        font-size: 18px;
+        background-image: url(images/fall-harvest.jpeg);
+        object-fit: cover;
+        background-repeat: no-repeat;
+        /* background-position-x: 50px; */
+        background-size: 120%;
+      }
+      div {
+        margin: 0 auto;
+        max-width: 60%;
+        background-color: rgba(250, 247, 247, 0.75);
+        padding: 1rem;
+      }
+      body > h1 {
+        text-align: center;
+        background-color: rgb(198, 98, 11, 0.5);
+        background-size: 0%;
+        padding: 0.5rem;
+      }
+      a {
+        text-decoration: none;
+        padding: 0.4rem 0.7rem;
+        margin: 0.5rem;
+        color: black;
+        border: 1px solid black;
+        border-radius: 2px;
+        background-color: #eaa94b;
+      }
+      img {
+        position: absolute;
+        left: 0;
+        top: 3rem;
+        z-index: -1;
+      }
+    </style>
+  </body>
+</html>
